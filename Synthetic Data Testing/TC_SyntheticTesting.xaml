@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC_SyntheticTesting" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TC_SyntheticTesting_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_SyntheticTesting" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="TC_SyntheticTesting_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -79,17 +79,20 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC_SyntheticTesting" sap:VirtualizedContainerService.HintSize="597.3333333333333,1103.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC_SyntheticTesting" sap:VirtualizedContainerService.HintSize="599.3333333333333,2268.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Random Data Generation" sap:VirtualizedContainerService.HintSize="450,1080.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Random Data Generation" sap:VirtualizedContainerService.HintSize="450,2246" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="FirstName" />
         <Variable x:TypeArguments="x:String" Name="LastName" />
         <Variable x:TypeArguments="x:Decimal" Name="RandomNumber" />
+        <Variable x:TypeArguments="s:DateTime" Name="RandomDate" />
+        <Variable x:TypeArguments="x:String" Name="CharacterName" />
+        <Variable x:TypeArguments="scg:Dictionary(x:String, x:String)" Name="Address" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -101,7 +104,13 @@
       <utat:LastName DisplayName="Generate Last Name" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="LastName_1" LastNameResult="[LastName]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[LastName]" />
       <utat:RandomNumber Decimals="{x:Null}" DisplayName="Generate Random Number" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="RandomNumber_1" Max="20" Min="10" Output="[RandomNumber]" />
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[RandomNumber]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[RandomNumber]" />
+      <utat:RandomDate DisplayName="Generate Random Date" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="RandomDate_1" MaxDate="2026-07-04" MinDate="2026-05-01" Output="[RandomDate]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[RandomDate]" />
+      <utat:RandomValue DisplayName="Generate Random Value" FilePath="C:\Users\DELL\Documents\UiPath\UiPathTestAutomationTraining\mohanlal_characters.csv" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="RandomValue_1" Value="[CharacterName]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[CharacterName]" />
+      <utat:Address AddressResult="[Address]" City="Wels" Country="Austria" DisplayName="Generate Address" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="Address_1" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[Address(&quot;StreetName&quot;)]" />
     </Sequence>
   </Sequence>
 </Activity>

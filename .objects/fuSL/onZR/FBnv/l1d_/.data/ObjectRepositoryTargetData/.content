@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QH9FoNQRh06JmRrneUiDrg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/welcome" CVScreenId="c0cfbd5e-08a7-4e1c-b438-aca18b90d616" CvTextArea="1515, 182, 75, 33" CvTextArgument="Login" CvType="Text" DesignTimeRectangle="1506, 165, 95, 65" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Login' tag='A' /&gt;" Guid="752d06c7-68ad-4ae3-8991-77784b86de1f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c0cfbd5e-08a7-4e1c-b438-aca18b90d616" CvElementArea="1470, 176, 32, 35" CvTextArea="1350, 182, 121, 27" CvTextArgument="Products" CvType="ArrowButton" DesignTimeRectangle="1340, 165, 166, 65" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='dropdownMenuLink' tag='A' type='' class='nav-link dropdown-toggle text-dark' aaname='Products' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Products' /&gt;" Guid="3d99b45a-f286-4de4-93f0-ec60f55a019e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1df0185e57be8622943bff73ffb2c61c.png" xmlns="">0fszFcJnxVUqEKvDvFa-b3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Welcome Message",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "BcRkTtATMkuyR1XaZx03qA",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/BcRkTtATMkuyR1XaZx03qA",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/_18Gk2u2EUK6O34fIPoljA",
+  "Created": "2026-07-01T09:34:31.9451308Z",
+  "Updated": "2026-07-01T09:35:36.0709627Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

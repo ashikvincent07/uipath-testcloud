@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vendor Tax ID Address C…",
+  "Type": "Element",
+  "Id": "6evakwDkDEaX4ujsI2sz3A",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/6evakwDkDEaX4ujsI2sz3A",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/E1pZxiGUmE2JWRsw__BNUQ",
+  "Created": "2026-07-01T10:49:16.327978Z",
+  "Updated": "2026-07-01T10:49:16.327978Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

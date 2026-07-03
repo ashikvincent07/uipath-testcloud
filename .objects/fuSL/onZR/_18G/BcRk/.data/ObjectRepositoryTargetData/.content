@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l3RQHVyJWk-XcdIy-T5wXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts" CVScreenId="ddb92dc8-93b2-4b38-bf15-dda1d3bf31db" CvTextArea="471, 393, 388, 66" CvTextArgument="Welcome!" CvType="Text" DesignTimeRectangle="479, 385, 494, 86" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="df45c636-c6c8-4e94-9bb2-296782be2c31" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank - Accounts' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ddb92dc8-93b2-4b38-bf15-dda1d3bf31db" CvElementArea="968, 411, 473, 80" CvType="Button" DesignTimeRectangle="407, 313, 1105, 266" FuzzySelectorArgument="&lt;webctrl type='' tag='DIV' class='card-body card-image' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Welcome!&amp;#xA;&amp;#xA;Here is your account summary:&amp;#xA;&amp;#xA;Apply For New Account&amp;#xA;&amp;#xA;No accounts at this time, apply for a new account today!' /&gt;" Guid="e84ea11c-dacb-47ef-9a9c-3be6a5443b0c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec271a7b6bea66f22f2cfd8c1497e36d.png" xmlns="">0vCpIUKmaikO0XL6Xu57D4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

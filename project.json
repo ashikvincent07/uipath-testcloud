@@ -60,6 +60,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Acme System 1\\TC - ForEachUiElement.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5ab29d1a-c3f6-4cab-8332-ec440dd060d7",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Synthetic Data Testing\\TC_SyntheticTesting.xaml"
       }
     ],
     "saveToCloud": false

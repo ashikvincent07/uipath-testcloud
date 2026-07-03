@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Add Account",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3b6qVUy8J0eaV6RoT5xCTQ",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/3b6qVUy8J0eaV6RoT5xCTQ",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/At_giadd90WGEzkJdEAlZQ",
+  "Created": "2026-07-03T07:00:11.0245566Z",
+  "Updated": "2026-07-03T07:00:11.0245566Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

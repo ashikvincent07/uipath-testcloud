@@ -67,6 +67,14 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Synthetic Data Testing\\TC_SyntheticTesting.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "25afd4c1-8849-4555-b84d-7e388b55511a",
+        "dataVariationFilePath": ".variations\\TC - AddAccount.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Acme System Add Account\\TC - AddAccount.xaml"
       }
     ],
     "saveToCloud": false

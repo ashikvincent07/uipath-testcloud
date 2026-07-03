@@ -1,0 +1,13 @@
+﻿{
+  "Name": "City, State, Zip",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "qwIxa8jfp0O_YcmDVaRBhA",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/qwIxa8jfp0O_YcmDVaRBhA",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/At_giadd90WGEzkJdEAlZQ",
+  "Created": "2026-07-03T07:00:10.8622957Z",
+  "Updated": "2026-07-03T07:00:10.8622957Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

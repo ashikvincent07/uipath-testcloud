@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Popup OK",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "MUS7qx_OlUShpo3yd-CvHw",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/MUS7qx_OlUShpo3yd-CvHw",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/At_giadd90WGEzkJdEAlZQ",
+  "Created": "2026-07-03T07:00:11.0563257Z",
+  "Updated": "2026-07-03T07:16:49.654099Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

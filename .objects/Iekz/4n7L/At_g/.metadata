@@ -1,0 +1,15 @@
+﻿{
+  "Name": "AddAccount",
+  "Type": "Screen",
+  "Id": "At_giadd90WGEzkJdEAlZQ",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/At_giadd90WGEzkJdEAlZQ",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/4n7LCy1sfEOJiJTokRsZNA",
+  "Created": "2026-07-03T06:46:11.0264353Z",
+  "Updated": "2026-07-03T06:46:26.1760639Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

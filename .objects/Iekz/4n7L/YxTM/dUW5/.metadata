@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type Into 'httpscloud.uipath.co…'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "dUW55l7BNESQ3JdSmB_txQ",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/dUW55l7BNESQ3JdSmB_txQ",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/YxTMBOrSOEu2-NiBme5cFg",
+  "Created": "2026-07-03T10:09:55.8455131Z",
+  "Updated": "2026-07-03T10:09:55.8455131Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

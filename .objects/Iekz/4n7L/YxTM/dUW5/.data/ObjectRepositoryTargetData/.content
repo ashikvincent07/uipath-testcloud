@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CPSHteWP9Eaqxtd27Sj4Hg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cloud.uipath.com/dwsjnqpoom/DefaultTenant/orchestrator_/triggers/time" CVScreenId="6d131fec-fad9-4d12-836f-dc993c100289" CvElementArea="126, 75, 1458, 49" CvType="InputBox" DesignTimeRectangle="167, 83, 1374, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Time Triggers - UiPath Orchestrator - High memory usage - 811 MB*' role='pane' /&gt;&lt;ctrl name='App bar' role='tool bar' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="14daaa71-dc44-49be-bc4a-1bca1f11b8d2" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Time Triggers - UiPath Orchestrator and 1 more page - Work - Mic*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a4eaed2915ab4fd7204ff5fc8a82942f.png" xmlns="">0ZMP4bCh9AUGx40IOsQcXPA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

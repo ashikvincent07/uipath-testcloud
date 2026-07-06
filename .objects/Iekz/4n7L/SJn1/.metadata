@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Time Triggers - UiPath Orchestrator",
+  "Type": "Screen",
+  "Id": "SJn1k4vmlk6JekZdaNz_2Q",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/SJn1k4vmlk6JekZdaNz_2Q",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/4n7LCy1sfEOJiJTokRsZNA",
+  "Created": "2026-07-03T10:08:13.034764Z",
+  "Updated": "2026-07-03T10:08:13.034764Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

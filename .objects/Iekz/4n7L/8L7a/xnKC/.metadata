@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type Into 'httpsacme-test.uipat…'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xnKCcUGAz0mlqVZW7hJ3BA",
+  "Reference": "UbEKyLS8zEyKAXXJ8Arl_A/xnKCcUGAz0mlqVZW7hJ3BA",
+  "ParentRef": "UbEKyLS8zEyKAXXJ8Arl_A/8L7aVQn6O0SBIsbcjHf9sA",
+  "Created": "2026-07-03T09:57:51.9982356Z",
+  "Updated": "2026-07-03T09:57:51.9982356Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

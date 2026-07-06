@@ -4,6 +4,8 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.FormActivityLibrary": "[2.0.8]",
+    "UiPath.Persistence.Activities": "[1.10.1]",
     "UiPath.System.Activities": "[26.6.1]",
     "UiPath.Testing.Activities": "[25.10.2]",
     "UiPath.UIAutomation.Activities": "[25.10.24]"
